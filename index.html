@@ -1,12 +1,85 @@
 <!doctype html>
 <html lang="pl">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Porównanie projektów — dostępność i autyzm</title>
-  <style>
-    body{font-family:Arial,system-ui,sans-serif;margin:0;background:#f5f7f8;color:#1f2933;line-height:1.6}
-    main{max-width:980px;margin:auto;padding:40px 20px}.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px}.card{background:white;border:1px solid #d8e2e7;border-radius:16px;padding:24px;box-shadow:0 2px 8px #0001}a.button{display:inline-block;background:#2f5d62;color:white;padding:12px 18px;border-radius:10px;text-decoration:none;font-weight:700}a.button:focus{outline:4px solid #f7c948;outline-offset:3px}.bad{background:#6d1b1b}h1{font-size:clamp(2rem,4vw,3rem)}
-  </style>
-</head>
-<body><main><h1>Dwie wersje strony: dobra i zła praktyka</h1><p>Projekt pokazuje kontrast między stroną przyjazną osobom w spektrum autyzmu a stroną celowo łamiącą zasady dostępności.</p><div class="cards"><section class="card"><h2>Wersja dostępna</h2><p>Spokojny układ, prosty język, przewidywalna nawigacja i brak rozpraszaczy.</p><a class="button" href="good.html">Otwórz stronę dostępną</a></section><section class="card"><h2>Wersja niedostępna</h2><p>Celowo zawiera błędy: chaos, miganie, hałas, nieczytelność i przeciążenie bodźcami.</p><a class="button bad" href="bad.html">Otwórz stronę niedostępną</a></section><section class="card"><h2>Omówienie</h2><p>Krótki opis zastosowanych i złamanych zasad.</p><a class="button" href="explanation.html">Przeczytaj omówienie</a></section></div></main></body></html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Porównanie projektów — dostępność i autyzm</title>
+    <style>
+      body {
+        font-family: Arial, system-ui, sans-serif;
+        margin: 0;
+        background: #f5f7f8;
+        color: #1f2933;
+        line-height: 1.6;
+      }
+      main {
+        max-width: 980px;
+        margin: auto;
+        padding: 40px 20px;
+      }
+      .cards {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+        gap: 20px;
+      }
+      .card {
+        background: white;
+        border: 1px solid #d8e2e7;
+        border-radius: 16px;
+        padding: 24px;
+        box-shadow: 0 2px 8px #0001;
+      }
+      a.button {
+        display: inline-block;
+        background: #2f5d62;
+        color: white;
+        padding: 12px 18px;
+        border-radius: 10px;
+        text-decoration: none;
+        font-weight: 700;
+      }
+      a.button:focus {
+        outline: 4px solid #f7c948;
+        outline-offset: 3px;
+      }
+      .bad {
+        background: #6d1b1b;
+      }
+      h1 {
+        font-size: clamp(2rem, 4vw, 3rem);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Dwie wersje strony: dobra i zła praktyka</h1>
+      <p>
+        Projekt pokazuje kontrast między stroną przyjazną osobom w spektrum
+        autyzmu a stroną celowo łamiącą zasady dostępności.
+      </p>
+      <div class="cards">
+        <section class="card">
+          <h2>Wersja dostępna</h2>
+          <p>
+            Spokojny układ, prosty język, przewidywalna nawigacja i brak
+            rozpraszaczy.
+          </p>
+          <a class="button" href="good.html">Otwórz stronę dostępną</a>
+        </section>
+        <section class="card">
+          <h2>Wersja niedostępna</h2>
+          <p>
+            Celowo zawiera błędy: chaos, miganie, hałas, nieczytelność i
+            przeciążenie bodźcami.
+          </p>
+          <a class="button bad" href="bad.html">Otwórz stronę niedostępną</a>
+        </section>
+        <section class="card">
+          <h2>Omówienie</h2>
+          <p>Krótki opis zastosowanych i złamanych zasad.</p>
+          <a class="button" href="explanation.html">Przeczytaj omówienie</a>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>
